@@ -1,0 +1,59 @@
+.container{
+    background-image: linear-gradient(#1d1d1d, rgb(0, 0, 0));
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: center;  
+}
+
+.informacoes,
+.tecnologia{
+    padding: 0 1rem;
+}
+
+.informacoes h3,
+.tecnologia h3{
+    padding: 0 40px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: rgb(0, 253, 232);
+}
+
+.informacoes p{
+    padding: 0 40px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.tecnologia h3{
+    display: flex;
+    justify-content: center;margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(0, 253, 232);
+}
+
+.tecnologia p{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0 40px;
+}
+
+.tecnologia ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.tecnologia ul li{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+@media (max-width: 420px){
+    .informacoes,
+.tecnologia{
+    padding: 0;
+}
+}
